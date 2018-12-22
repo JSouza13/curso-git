@@ -10,8 +10,14 @@ namespace TesteGit
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Olá mundo! ");
-            Console.WriteLine("Bom dia. :) ");
+            Console.WriteLine("Olá mundo! \n");
+            Console.WriteLine("Bom dia. :) \n");
+
+            for (int i = 0; i < 5; i++)
+            {
+                Console.WriteLine("Você está na posição: " + i);
+            }
+
             Console.ReadLine();
         }
     }
