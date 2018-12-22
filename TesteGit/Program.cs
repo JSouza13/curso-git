@@ -11,7 +11,7 @@ namespace TesteGit
         static void Main(string[] args)
         {
             Console.WriteLine("Olá mundo! \n");
-            Console.WriteLine("Bom dia. :) \n");
+            Console.WriteLine("Tenha um bom dia. :) \n");
 
             for (int i = 0; i < 5; i++)
             {
